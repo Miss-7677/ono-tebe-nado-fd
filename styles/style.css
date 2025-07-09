@@ -1,4 +1,3 @@
-
 .header {
 height: 293px;
 display: flex;
@@ -7,21 +6,30 @@ justify-content: space-between;
 gap: 194px;
 } 
 
-
-.menu {
- display:inline-block;
+.header_menu-list {
  display: flex;
- flex-direction: row; 
- justify-content: space-between;
+ flex-wrap: nowrap;
+ white-space: nowrap;
+ column-gap: 13px;
 } 
 
-.header_logo {
- width: 148px;
- height: 105px; 
- top: 92px;                      
- left: 478px;
- 
+.header_menu-item-first { 
+  list-style-type: none;
+}
+
+.header_menu-item { 
+  list-style-type: circle;
+}
+
+.header_logo-image {
+height: 105px;
+width: 148px;
+margin-top: 92px;
+
 } 
+
+
+
 
 .address {
 list-style-type: none; 
