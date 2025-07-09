@@ -3,40 +3,56 @@
   <head>
     <meta charset="UTF-8">
     <meta http-equiv="refresh" content="3">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Оно тебе надо — аукцион вещей, в которые никто не верил</title>
     <link rel="stylesheet" href="./fonts/fonts.css"/>
-    <link rel="stylesheet" href="./styles/style.css"/>
     <link rel="stylesheet" href="./styles/global.css"/>
+    <link rel="stylesheet" href="./styles/style.css"/>
   </head>
   <body>
     <header class="header content-section_theme_light">
-      <nav>
-        <ul class="">
-          <li><p>главная</p></li>
-          <li><a href="#section2">посмотреть лоты</a></li>
-          <li><a href="#section3">об аукционе</h1></a></li>
+      <nav class="header_menu">
+        <ul class="header_menu-list">
+          <li class="header_menu-item header_menu-ilem_active">
+            <a class="header_menu-link">главная</a>
+          </li>
+          <li class="header_menu-item">
+             <a class="header_menu-link" href="#0">посмотреть лоты</a>
+          </li>
+          <li class="header_menu-item">
+             <a class="header_menu-link" href="#0">об аукционе</a>
+          </li>
         </ul>
       </nav>
-      <a><img src="/images/logo-black.svg"></a>
-      <address>
-        <a href="">+9 999 555 5555</a>
-        <a href="">info@sobaka.ge</a>
-        <p>наб. Принсенграхт 263- 265, Амстердам</p>
+
+      <a class="header_logo">
+      <img class="header_logo-imgage" src="images/logo-black.svg">
+      </a>
+
+     <address>
+        <a href="0">+9 999 555 5555</a>
+        <a href="0">info@sobaka.ge</a>
+        <p>наб. Принсенграхт 263-</p>
+        <p>265, Амстердам</p>
       </address>
     </header>
     <main class="content">
       <section class="cover content-section content-section_theme_light" id="главная"> 
-        <h1>Оно тебе надо</h1>
+        <h1 class="title">
+          <span class="aligned-text aligned-text_left">Оно</span>
+          <span class="aligned-text aligned-text_center">тебе</span>
+          <span class="aligned-text aligned-text_right">надо</span>
+        </h1>
+        <div class="description"><p>Аукцион вещей, в которые никто не верил<button>Сделать ставку</button></p></div>
+      <img src="images/cover.jpg">
       </section>
+
       <section class="loty content-section content-section_theme_light">
         <h1>ЛОТЫ</h1>
         <ul>
           <li>
-            <article>
-            <h2>Фильм режиссёра, который бросил киношколу</h2>
+            <a href="/images/card-lot-01.jpg"></a><article>Фильм режиссёра, который бросил киношколу</article>
             <p>Не просто бросил, а ушёл с первой лекции. Какой была бы ваша ставка, если бы вы не знали, что режиссёр — Пол Томас Андерсон?</p>
-            </article>
-            <img src="images/card-lot-01.jpg">
           </li>
           <li>
             <h2>Книга, где описан один скучный день из жизни рекламного агента</h2>
@@ -54,7 +70,11 @@
           </li>
         </ul>
       </section>
-      <section class="auction content-section content-section_theme_light"> 
+      <section class="auction content-section content-section_theme_light">
+        <div><img src="images/logo-white.svg"></div> 
+        <div>
+          <h2>Об аукционе</h2>
+        </div>
       </section>
     </main>
     <footer class="footer content-section content-section_theme_light"></footer>

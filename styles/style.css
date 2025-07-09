@@ -1,3 +1,32 @@
+
+.header {
+height: 293px;
+display: flex;
+flex-direction: row; 
+justify-content: space-between;
+gap: 194px;
+} 
+
+
+.menu {
+ display:inline-block;
+ display: flex;
+ flex-direction: row; 
+ justify-content: space-between;
+} 
+
+.header_logo {
+ width: 148px;
+ height: 105px; 
+ top: 92px;                      
+ left: 478px;
+ 
+} 
+
+.address {
+list-style-type: none; 
+} 
+
 .content-section {
 box-sizing: border-box;
 }
@@ -7,22 +36,25 @@ color: #000;
 background-color: #fff ;
 }
 
-.header {
-padding: ;
-display: flex;
-flex-direction: row; 
-justify-content: center;
-gap: 194px;
+
+.aligned-text {
+display: block;
+line-height: 1 1 1;
+letter-spacing: 30px;
 } 
 
-. ul {
- display:inline-block;
+.aligned-text_left {
+text-align: left;
 } 
 
-
-.cover {
-padding: ;
+.aligned-text_center {
+text-align: center;
 } 
+
+.aligned-text_right {
+text-align: right;
+} 
+
 
 .loty {
 padding: ;
