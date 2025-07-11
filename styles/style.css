@@ -81,7 +81,7 @@ display: flex;
   content: "";
   position: absolute;
   inset: 0;
-  background: rgba(0,0,0,0.4);
+  background-color: rgba(0,0,0,0.6);
 }
 
 .cover_title { 
@@ -123,18 +123,20 @@ left: 663px;
 width: 1000px;
 height: 51px;
 position: absolute;
-margin: 656px 50px 50px 50px;
 display: flex;
 column-gap: 107px;
+margin-left: 50px;
+margin-top: 656px;
+border-width: 1px;
 }
 
 .description_p {
-width: 637px;
 height: 28px;
 padding: 11px 12px;
 word-spacing: 40px;
 color: #fff;
 text-transform: uppercase;
+white-space: nowrap;
 }
 
 .description_button {
@@ -145,3 +147,95 @@ color: #fff;
 border: 1px solid rgba(255, 255, 255, 1);
 text-transform: uppercase;
 }
+
+.loty {
+margin-top: 180px;
+margin-left: 24px;
+margin-right: 24px;
+width: 1052;
+height: 723;
+}
+
+.loty_text {
+margin-left: 40px;
+margin-bottom: 27px;
+text-transform: uppercase;
+font-weight: 700;
+font-style: Bold;
+font-size: 40px;
+}
+
+
+.container {
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+
+.card {
+width: 334px;
+height: 596px;
+color: #fff;
+display: grid;
+align-items: baseline;
+position: relative;
+} 
+
+.card:before {
+  content: "";
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+} 
+
+.card_one {
+background: url(/images/card-lot-01.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+}  
+
+.card_too {
+background: url(/images/card-lot-02.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+}  
+
+.card_free {
+background: url(/images/card-lot-03.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+}  
+
+.h2_ferst {
+height: 82px;
+padding: 48px 40px 466px 40px;
+text-transform: uppercase;
+z-index: 2;
+text-decoration:underline;
+text-underline-offset: 0.15em;
+}  
+
+.h2_second {
+height: 110px;
+padding: 48px 40px 438px 40px; 
+text-transform: uppercase;
+z-index: 2;
+text-decoration:underline;
+text-underline-offset: 0.15em;
+}  
+
+.h2_third {
+height: 110px;
+padding: 48px 40px 438px 40px;
+text-transform: uppercase;
+z-index: 2;
+text-decoration:underline;
+text-underline-offset: 0.15em;
+}  
