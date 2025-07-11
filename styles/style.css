@@ -165,7 +165,6 @@ font-style: Bold;
 font-size: 40px;
 }
 
-
 .container {
 display: flex;
 justify-content: space-around;
@@ -176,9 +175,12 @@ align-items: center;
 width: 334px;
 height: 596px;
 color: #fff;
-display: grid;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
 align-items: baseline;
 position: relative;
+padding: 48px 40px;
 } 
 
 .card:before {
@@ -215,16 +217,14 @@ background-position: center;
 
 .h2_ferst {
 height: 82px;
-padding: 48px 40px 466px 40px;
 text-transform: uppercase;
 z-index: 2;
 text-decoration:underline;
 text-underline-offset: 0.15em;
 }  
 
-.h2_second {
+.h2_second { 
 height: 110px;
-padding: 48px 40px 438px 40px; 
 text-transform: uppercase;
 z-index: 2;
 text-decoration:underline;
@@ -233,9 +233,23 @@ text-underline-offset: 0.15em;
 
 .h2_third {
 height: 110px;
-padding: 48px 40px 438px 40px;
 text-transform: uppercase;
 z-index: 2;
 text-decoration:underline;
 text-underline-offset: 0.15em;
+}  
+
+.p_ferst {
+z-index: 2;
+font-size: 20px;
+} 
+
+.p_second {
+z-index: 2;
+font-size: 20px;
+}  
+
+.p_third {
+z-index: 2;
+font-size: 20px;
 }  
