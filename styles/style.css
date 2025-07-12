@@ -4,6 +4,7 @@ height: 293px;
 display: grid;
 grid-template-columns: 1fr min-content 1fr;
 align-items: center;
+font-size: 18px;
 } 
 
 .header_menu-list {
@@ -128,12 +129,13 @@ column-gap: 107px;
 margin-left: 50px;
 margin-top: 656px;
 border-width: 1px;
+font-size: 22px;
 }
 
 .description_p {
 height: 28px;
 padding: 11px 12px;
-word-spacing: 40px;
+word-spacing: 17px;
 color: #fff;
 text-transform: uppercase;
 white-space: nowrap;
@@ -177,6 +179,7 @@ height: 596px;
 color: #fff;
 display: flex;
 flex-direction: column;
+flex-wrap: nowrap;
 justify-content: space-between;
 align-items: baseline;
 position: relative;
@@ -215,41 +218,160 @@ background-size: cover;
 background-position: center;
 }  
 
-.h2_ferst {
-height: 82px;
+.h2 {
+font-size: 22px;
 text-transform: uppercase;
 z-index: 2;
 text-decoration:underline;
 text-underline-offset: 0.15em;
 }  
 
-.h2_second { 
-height: 110px;
-text-transform: uppercase;
-z-index: 2;
-text-decoration:underline;
-text-underline-offset: 0.15em;
-}  
-
-.h2_third {
-height: 110px;
-text-transform: uppercase;
-z-index: 2;
-text-decoration:underline;
-text-underline-offset: 0.15em;
-}  
-
-.p_ferst {
+.p {
 z-index: 2;
 font-size: 20px;
 } 
 
-.p_second {
-z-index: 2;
+.a-link {
+display: block;
+margin-top: 30px;
+margin-left: 40px;
+border-width: 1px;
+text-underline-offset: 4px;
 font-size: 20px;
+font-weight: 400px;
+}
+
+.about {
+width: 1052;
+height: 595;
+margin-top: 120px;
 }  
 
-.p_third {
-z-index: 2;
-font-size: 20px;
+.about_container {
+display: grid;
+grid-template-columns: 334px  repeat(1, 1fr);
+gap: 25px;
+padding: 35px 24px 0px;
 }  
+
+.about_logo {
+width: 240px;
+height: 240px;
+border-radius: 50%; 
+background-color: #111; 
+display: flex;
+justify-content: center;
+justify-self: center;
+align-items: center;
+margin-left: 47px;
+}  
+ 
+.about_logo-image {
+width: 148px;
+height: 114px;
+} 
+
+.about_content {
+display: flex;
+flex-direction: column;
+gap: 24px;
+padding-top: 100px;
+} 
+
+.about_h {
+font-size: 40px;
+font-weight: 700px;
+line-height: 47px;
+text-transform: uppercase;
+} 
+
+.about_p {
+align-self: flex-start;
+font-size: 20px;
+font-weight: 400px;
+line-height: 24px;
+}
+
+.about_p-up {
+padding-top: 100px;
+}
+
+.about_p-down {
+padding-top: 24px;
+}
+
+.footer {
+display: grid;
+grid-template-columns: auto 1fr auto;
+padding: 181px 50px 82px;
+gap: 140px;
+align-items: flex-start;
+font-size: 18px;
+}
+
+.footer_contact {
+width: 98px;
+margin-left: 50px;
+font-style: normal;
+} 
+
+.footer_contact-tel {
+text-decoration: none;
+border-bottom: 1px solid black;
+padding-bottom: 0,1em;
+white-space: nowrap;
+} 
+
+.footer_contact-pochta {
+text-decoration: none;
+border-bottom: 1px solid black;
+padding-bottom: 0,1em;
+white-space: nowrap;
+} 
+
+.footer_contact-adr {
+white-space: nowrap;
+} 
+
+.footer_contact-dom {
+white-space: nowrap;
+} 
+
+.footer_menu-list {
+ width: 164px;
+ margin-left: 154px;
+ display: flex;
+ flex-direction: column;
+ list-style-type: none;
+ text-align: center;
+} 
+
+.footer_menu-link { 
+  text-decoration: none;
+  border-bottom: 1px solid black;
+  padding-bottom: 0,1em;
+}
+
+.footer_logo {
+ width: 240px;
+ display: flex;
+ flex-wrap: nowrap;
+ white-space: nowrap;
+ list-style-position:inside;
+ gap: 48px;
+} 
+
+.footer_logo-yt {
+width: 48;
+height: 48;
+} 
+
+.footer_logo-vk {
+width: 48;
+height: 48;
+} 
+
+.footer_logo-pint {
+width: 48;
+height: 48;
+} 
