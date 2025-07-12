@@ -303,16 +303,18 @@ padding-top: 24px;
 .footer {
 display: grid;
 grid-template-columns: auto 1fr auto;
-padding: 181px 50px 82px;
 gap: 140px;
 align-items: flex-start;
 font-size: 18px;
+padding-top: 181px;
+padding-bottom: 82px;
 }
 
 .footer_contact {
 width: 98px;
 margin-left: 50px;
 font-style: normal;
+margin-left: 50px;
 } 
 
 .footer_contact-tel {
@@ -359,19 +361,20 @@ white-space: nowrap;
  white-space: nowrap;
  list-style-position:inside;
  gap: 48px;
+ margin-right: 50px;
 } 
 
 .footer_logo-yt {
-width: 48;
-height: 48;
+width: 48px;
+height: 48px;
 } 
 
 .footer_logo-vk {
-width: 48;
-height: 48;
+width: 48px;
+height: 48px;
 } 
 
 .footer_logo-pint {
-width: 48;
-height: 48;
+width: 48px;
+height: 48px;
 } 
