@@ -1,46 +1,45 @@
 .header {
-  width: 1100px;
-  height: 293px;
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
   font-size: 18px;
+  font-weight: 400;
+  padding: 92px 24px 92px 24px;
 }
 
 .header_menu-list {
-  width: 391px;
   display: flex;
-  flex-wrap: nowrap;
-  white-space: nowrap;
-  column-gap: 13px;
-  list-style-position:inside;
-  margin-left: 50px;
+  justify-self: center;
 }
 
 .header_menu-item-first {
   list-style-type: none;
+  padding-right: 7px;
 }
 
 .header_menu-item {
   list-style-type: circle;
+  text-underline-offset: 4px;
+  margin-left: 32px;
+  padding-left: 7px;
 }
 
 .header_menu-link {
-  text-decoration: none;
-  border-bottom: 1px solid black;
-  padding-bottom: 0,1em;
+  display: flex;
+  gap: 32px;
+  padding-right: 7px;
 }
 
 .header_logo-image {
-  width: 129px;
+  width: 130px;
   height: 105px;
   margin-left:36px;
 } 
 
 .header_contact {
-  width: 98px;
-  margin-left: 184px;
+  padding-left: 184px;
   font-style: normal;
+  line-height: 24.3px;
 } 
 
 .header_contact-tel {
