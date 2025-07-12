@@ -5,9 +5,9 @@
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
   font-size: 18px;
-} 
+}
 
-.header_menu-list {  
+.header_menu-list { 
   width: 391px;
   display: flex;
   flex-wrap: nowrap;
@@ -15,17 +15,17 @@
   column-gap: 13px;
   list-style-position:inside;
   margin-left: 50px;
-} 
+}
 
-.header_menu-item-first { 
+.header_menu-item-first {
   list-style-type: none;
 }
 
-.header_menu-item { 
+.header_menu-item {
   list-style-type: circle;
 }
 
-.header_menu-link { 
+.header_menu-link {
   text-decoration: none;
   border-bottom: 1px solid black;
   padding-bottom: 0,1em;
@@ -311,7 +311,6 @@
   width: 98px;
   margin-left: 50px;
   font-style: normal;
-  margin-left: 50px;
 } 
 
 .footer_contact-tel {
