@@ -4,44 +4,43 @@
   align-items: center;
   font-size: 18px;
   font-weight: 400;
-  margin-left: 50px;
-  margin-top: 92px;
-  margin-bottom: 96px;
+  padding-left: 50px;
+  padding-top: 92px;
+  padding-right: 50px;
+  padding-bottom: 96px;
 }
 
 .header_menu-list {
   display: flex;
   justify-self: center; 
+  list-style-position: outside;
+  gap: 32px;
 }
 
 .header_menu-item-first {
   list-style-type: none;
-  padding-right: 7px;
 }
 
 .header_menu-item {
   list-style-type: circle;
   text-underline-offset: 4px;
-  margin-left: 32px;
-  padding-left: 7px;
 }
 
 .header_menu-link {
   display: flex;
-  gap: 32px;
-  padding-right: 7px;
+  padding-left: 7px;
 }
 
 .header_logo-image {
-  width: 124px;
-  height: auto;
-  margin-left:36px;
+  width: 148px;
+  height: 105px;
 } 
 
 .header_contact {
   padding-left: 184px;
   font-style: normal;
   line-height: 24.3px;
+  letter-spacing: 0%;
 } 
 
 .header_contact-tel {
