@@ -19,11 +19,17 @@
 
 .header_menu-item-first {
   list-style-type: none;
+  padding-left: 0;
 }
 
 .header_menu-item {
   list-style-type: circle;
   text-underline-offset: 4px;
+}
+
+.header_menu-link-first {
+  display: flex;
+  padding-left: 0;
 }
 
 .header_menu-link {
